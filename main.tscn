@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://lm2bsj10pv47"]
+
+[ext_resource type="Script" path="res://Main.gd" id="1_sbpiu"]
+[ext_resource type="PackedScene" uid="uid://b1x0s3ttvmnuu" path="res://chatbox.tscn" id="2_gb5pq"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_sbpiu")
+
+[node name="Chatbox" parent="." instance=ExtResource("2_gb5pq")]
